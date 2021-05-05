@@ -1,0 +1,95 @@
+
+// FONT FAMILIES
+$fontPoppins : Gotham;
+$fontGotham : Poppins;
+
+// COLORS
+$white:#ffffff;
+$black:#000000;
+$lightBlack:#1a1a1a;
+$orange:#ff5617;
+
+$bgWhite:$white;
+$bgLightBlack:$lightBlack;
+$bgOrange:$orange;
+$bgBlack:$black;
+
+$txtBlack:$black;
+$txtWhite:$white;
+$txtOrange:$orange;
+
+
+// FONTS
+@font-face {
+    font-family: Gotham;
+    src: url('../../fonts/gotham/Gotham-Black.otf');
+  
+    
+}
+
+
+body{
+    background-color: $bgWhite;
+    margin: 0;
+}
+
+
+.hero{
+
+
+    header{
+        position: relative;
+        margin: 60px auto 0;
+        width: 90%;
+        
+        .main-logo{
+           
+
+            ul{
+                margin: 16px auto;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                width: fit-content;
+                li{
+                    margin: 8px 16px;
+                    align-self: center;
+                }
+            }
+
+            >.txt{
+                text-transform: uppercase;
+                background-color: $bgBlack;
+                color: $txtWhite;
+                font-family: Gotham;
+                letter-spacing: 4.5px;
+                width: fit-content;
+                font-size: 24px;
+                text-align: center;
+                padding: 6px 8px;
+                margin: auto;  
+            }
+        }
+
+        .menu{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .vl{
+            border-left: 2px solid $black;
+            margin: auto;
+            width: fit-content;
+            height: 80px;
+        }
+    >div{
+        background-image: url('../../img/banner.png');
+        height: 100vh;
+    }
+
+        
+       
+    }
+
+}
