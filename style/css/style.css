@@ -7,6 +7,8 @@ body {
   background-color: #ffffff;
   margin: 0;
   font-family: Poppins, sans-serif;
+  max-width: 1600px;
+  margin: auto;
 }
 
 a, button {
@@ -102,10 +104,70 @@ p.under-title {
   margin: auto;
 }
 
+.hero header .main-logo > .txt a {
+  color: #ffffff;
+}
+
 .hero header .menu {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.hero header .menu:hover {
+  cursor: pointer;
+}
+
+.hero header .menu:hover + .menu-nav {
+  visibility: visible;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.hero header .menu-nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #ff5617;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 150px;
+  height: 0;
+  visibility: hidden;
+}
+
+.hero header .menu-nav:hover {
+  visibility: visible;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.hero header .menu-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hero header .menu-nav ul li {
+  padding: 12px 20px;
+}
+
+.hero header .menu-nav ul a {
+  text-transform: capitalize;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 4px 0;
+  font-weight: 500;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero header .menu-nav ul a:hover {
+  color: #000000;
 }
 
 .hero > div {
@@ -115,7 +177,7 @@ p.under-title {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 500px;
   text-align: center;
 }
 
@@ -341,6 +403,9 @@ p.under-title {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .portfolio .navigation ul button {
@@ -381,7 +446,7 @@ p.under-title {
 }
 
 .portfolio .grid > div:hover .grid-hover {
-  display: block;
+  visibility: visible;
 }
 
 .portfolio .grid div.grid-hover {
@@ -393,9 +458,9 @@ p.under-title {
   bottom: 16px;
   left: 14px;
   right: 14px;
-  display: none;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .portfolio .grid div.grid-hover span {
@@ -557,6 +622,11 @@ footer > div.top-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 footer > div.top-footer > div {
@@ -664,6 +734,22 @@ footer > div.top-footer div.ig-feed {
   width: 25%;
 }
 
+footer > div.top-footer div.ig-feed > div.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer > div.top-footer div.ig-feed > div.content > img {
+  width: 40%;
+  margin: 10px auto;
+}
+
 footer ul {
   list-style: none;
   padding: 0;
@@ -699,6 +785,7 @@ footer div.bottom-footer {
 
 footer div.bottom-footer a {
   font-size: 12px;
+  text-transform: capitalize;
 }
 
 footer div.bottom-footer hr {
@@ -726,4 +813,8 @@ footer div.bottom-footer .content .links > ul li {
 
 footer div.bottom-footer .content .copyright {
   float: right;
+}
+
+footer div.bottom-footer .content .copyright a {
+  text-transform: lowercase;
 }

@@ -1,0 +1,206 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1024px) {
+  .services > .txt {
+    margin-left: 5%;
+  }
+  .portfolio {
+    width: 60%;
+  }
+  .services .head {
+    max-width: 60%;
+  }
+  .services .services-list > div {
+    padding: 40px 20px;
+  }
+  footer > div.top-footer div.links {
+    width: 50%;
+  }
+  footer > div.top-footer div.ig-feed {
+    width: 60%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .hero > div h1 {
+    font-size: 50px;
+  }
+  .hero > div {
+    height: 400px;
+  }
+  .services > .carousel-img {
+    top: -150px;
+    height: 250px;
+  }
+  .v-carousel .v-slider {
+    padding: 50px 0;
+  }
+  h1.title {
+    font-size: 40px;
+  }
+  .portfolio {
+    width: 80%;
+  }
+  .services .head {
+    max-width: 80%;
+  }
+  .services .services-list > div {
+    padding: 20px 10px;
+  }
+  .services .services-list > div h1.title {
+    font-size: 20px;
+  }
+  .testimonials .head {
+    max-width: 80%;
+  }
+  footer .title {
+    text-align: center;
+  }
+  footer div.top-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  footer div.top-footer div.contact {
+    width: 100%;
+  }
+  footer div.top-footer div.contact .list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  footer div.top-footer div.contact .list ul {
+    width: 80%;
+    margin: auto;
+  }
+  footer div.top-footer div.contact .list form {
+    width: 80%;
+    margin: 20px auto;
+  }
+  footer div.top-footer div.links {
+    width: 100%;
+    text-align: center;
+  }
+  footer div.top-footer div.ig-feed {
+    width: 100%;
+  }
+  .peoples-brand people {
+    height: 200px;
+  }
+  .peoples-brand people img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .hero > div h1 {
+    font-size: 40px;
+  }
+  .hero > div {
+    height: 200px;
+  }
+  .services > .txt .carousel-txt .item h1 {
+    font-size: 30px;
+  }
+  .services > .carousel-img {
+    display: none;
+  }
+  .v-carousel .v-slider .item {
+    max-width: 80%;
+  }
+  h1.title {
+    font-size: 32px;
+  }
+  p.under-title {
+    font-size: 14px;
+  }
+  .v-carousel .v-slider ul.slick-dots li {
+    font-size: 20px;
+  }
+  .v-carousel .v-slider ul.slick-dots li.slick-active {
+    font-size: 30px;
+  }
+  .services .services-list > div {
+    width: calc(100%/2);
+  }
+  .portfolio .grid div.grid-hover span {
+    font-size: 14px;
+  }
+  .portfolio .grid div.grid-hover p {
+    font-size: 10px;
+  }
+  footer div.bottom-footer .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer div.bottom-footer .content > div {
+    margin: auto;
+  }
+  footer div.bottom-footer .content .links > ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 450px) {
+  h1.title {
+    font-size: 26px;
+  }
+  p.under-title {
+    font-size: 12px;
+  }
+  .hero header .vl {
+    display: none;
+  }
+  .hero header .main-logo > .txt {
+    margin: 0;
+  }
+  .hero header {
+    margin: 60px auto 0;
+  }
+  .hero > div {
+    height: 80vh;
+  }
+  .hero > div h1 {
+    padding-top: 30%;
+    font-size: 30px;
+  }
+  .v-carousel .v-slider ul.slick-dots li {
+    font-size: 14px;
+  }
+  .v-carousel .v-slider ul.slick-dots li.slick-active {
+    font-size: 20px;
+  }
+  .services .services-list > div p.description {
+    font-size: 14px;
+  }
+  .testimonials .testimonial-slider {
+    width: 80%;
+  }
+  .testimonials .testimonial-slider item {
+    width: 100%;
+  }
+  .portfolio .navigation ul button {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hero > div h1 {
+    font-size: 26px;
+  }
+  .hero > div h1 {
+    padding-top: 50%;
+  }
+  .services > .txt .carousel-txt .item h1 {
+    font-size: 26px;
+  }
+}
