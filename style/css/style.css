@@ -7,7 +7,7 @@ body {
   background-color: #ffffff;
   margin: 0;
   font-family: Poppins, sans-serif;
-  max-width: 1600px;
+  max-width: 1920px;
   margin: auto;
 }
 
@@ -42,12 +42,12 @@ img {
 
 h1.title {
   color: #000000;
-  font-size: 50px;
+  font-size: 70px;
   margin-bottom: 0;
 }
 
 p.under-title {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
 }
 
@@ -57,7 +57,7 @@ p.under-title {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  height: 30px;
+  height: 80px;
 }
 
 .hero header {
@@ -85,8 +85,10 @@ p.under-title {
 .hero header .main-logo ul li {
   margin: 8px 16px;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  width: 24px;
+  height: auto;
 }
 
 .hero header .main-logo > .txt {
@@ -98,7 +100,7 @@ p.under-title {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  font-size: 24px;
+  font-size: 56px;
   text-align: center;
   padding: 6px 8px;
   margin: auto;
@@ -112,6 +114,8 @@ p.under-title {
   position: absolute;
   right: 0;
   top: 0;
+  width: 100px;
+  height: auto;
 }
 
 .hero header .menu:hover {
@@ -132,7 +136,7 @@ p.under-title {
   background-color: #ff5617;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  width: 150px;
+  width: 200px;
   height: 0;
   visibility: hidden;
 }
@@ -159,7 +163,7 @@ p.under-title {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 20px;
   padding: 4px 0;
   font-weight: 500;
   -webkit-transition: all 0.3s ease-in-out;
@@ -177,14 +181,14 @@ p.under-title {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 850px;
   text-align: center;
 }
 
 .hero > div h1 {
   margin: 0;
-  padding: 30px;
-  font-size: 80px;
+  padding: 150px 0 50px;
+  font-size: 100px;
 }
 
 .hero > div .watch {
@@ -197,7 +201,7 @@ p.under-title {
 }
 
 .hero > div .watch a {
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: normal;
   color: #000000;
 }
@@ -216,11 +220,11 @@ p.under-title {
 .hero > div a.btn {
   display: inline-block;
   margin-top: 20px;
-  font-size: 16px;
-  padding: 6px 30px;
+  font-size: 18px;
+  padding: 12px 60px;
   border-radius: 25px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .services {
@@ -230,10 +234,10 @@ p.under-title {
 .services > .carousel-img {
   position: absolute;
   right: 0;
-  top: -100px;
+  top: -300px;
   width: 40%;
   background: #2c3da7;
-  height: 450px;
+  height: 600px;
 }
 
 .services > .carousel-img .slick-arrow {
@@ -251,22 +255,22 @@ p.under-title {
 }
 
 .services > .txt {
-  margin-left: 10%;
+  margin: 10%;
   color: #000000;
 }
 
 .services > .txt h3 {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: normal;
   text-transform: capitalize;
 }
 
 .services > .txt .carousel-txt {
-  max-width: 500px;
+  max-width: 650px;
 }
 
 .services > .txt .carousel-txt .item h1 {
-  font-size: 46px;
+  font-size: 70px;
   font-weight: 700;
   margin-top: 0;
 }
@@ -292,6 +296,10 @@ p.under-title {
   cursor: pointer;
 }
 
+.services > .txt .carousel-txt .slick-dots li a {
+  font-size: 16px;
+}
+
 .services > .txt .carousel-txt .slick-dots li.slick-active {
   background: #ff5617;
   color: #ffffff;
@@ -315,7 +323,7 @@ p.under-title {
   color: #ffffff;
   width: 80%;
   margin: auto;
-  padding: 100px 0;
+  padding: 200px 0;
 }
 
 .v-carousel .v-slider .item {
@@ -393,6 +401,7 @@ p.under-title {
   width: 50%;
   margin: auto;
   text-align: center;
+  padding: 100px 0;
 }
 
 .portfolio .navigation ul {
@@ -406,6 +415,10 @@ p.under-title {
   padding: 0;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.portfolio .navigation ul li {
+  margin: auto 20px;
 }
 
 .portfolio .navigation ul button {
@@ -490,7 +503,7 @@ p.under-title {
 .services .services-list > div {
   width: calc(100%/3);
   text-align: center;
-  padding: 40px 60px;
+  padding: 100px 80px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-top: 1px solid #e7e7e7;
@@ -516,12 +529,12 @@ p.under-title {
 }
 
 .services .services-list > div h1.title {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
 }
 
 .services .services-list > div p.description {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
 }
 
@@ -544,30 +557,30 @@ p.under-title {
 
 .testimonials .head {
   text-align: center;
-  max-width: 60%;
+  max-width: 50%;
   margin: 100px auto auto;
 }
 
 .testimonials .testimonial-slider {
   text-align: center;
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 
 .testimonials .testimonial-slider p.feedback {
-  font-style: medium;
   font-weight: 600;
+  font-size: 36px;
 }
 
 .testimonials .testimonial-slider p.name {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
 }
 
 .testimonials .testimonial-slider span.post {
   color: #2c3da7;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -575,21 +588,21 @@ p.under-title {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin: 20px auto;
+  margin: 40px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .testimonials .testimonial-slider-nav .item {
-  width: 40px;
-  height: 40px;
+  width: 75px;
+  height: auto;
   margin: auto 10px;
 }
 
 .testimonials .testimonial-slider-nav .item img {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: auto;
   opacity: 0.5;
   border-radius: 50%;
   -webkit-transition: all 0.5s ease-in-out;
@@ -602,13 +615,23 @@ p.under-title {
 
 .testimonials .testimonial-slider-nav .item img.active {
   opacity: 1;
-  width: 40px;
-  height: 40px;
+  width: 75px;
+  height: auto;
+}
+
+.people-brands img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.people-brands .people {
+  height: 331px;
 }
 
 .people-brands .brands {
+  height: 111px;
   width: 60%;
-  margin: auto;
+  margin: 50px auto;
 }
 
 footer {
@@ -617,7 +640,7 @@ footer {
 }
 
 footer > div.top-footer {
-  width: 80%;
+  width: 60%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -773,10 +796,11 @@ footer .title {
   padding: 40px 0;
   font-weight: 500;
   text-transform: capitalize;
+  font-size: 18px;
 }
 
 footer div.bottom-footer {
-  width: 80%;
+  width: 60%;
   margin: auto;
   padding: 16px 4px;
   -webkit-box-sizing: border-box;

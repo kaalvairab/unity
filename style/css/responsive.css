@@ -1,3 +1,336 @@
+@media only screen and (max-width: 1400px) {
+  h1.title {
+    font-size: 50px;
+  }
+  p.under-title {
+    font-size: 20px;
+  }
+  .hero header {
+    position: relative;
+    margin: 60px auto 0;
+    width: 90%;
+  }
+  .hero header .vl {
+    margin: auto;
+    height: 40px;
+  }
+  .hero header .main-logo ul li {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .hero header .main-logo > .txt {
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 24px;
+    text-align: center;
+    padding: 6px 8px;
+    margin: auto;
+  }
+  .hero header .menu {
+    width: 75px;
+  }
+  .hero header .menu-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 150px;
+    height: 0;
+    visibility: hidden;
+  }
+  .hero header .menu-nav:hover {
+    visibility: visible;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .hero header .menu-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .hero header .menu-nav ul li {
+    padding: 12px 20px;
+  }
+  .hero header .menu-nav ul a {
+    text-transform: capitalize;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 18px;
+    padding: 4px 0;
+    font-weight: 500;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .hero > div {
+    height: 500px;
+  }
+  .hero > div h1 {
+    padding: 100px 0 0 0;
+    font-size: 60px;
+  }
+  .hero > div .watch {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero > div .watch a {
+    font-size: 18px;
+    letter-spacing: normal;
+  }
+  .hero > div .watch a img {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+  }
+  .hero > div .watch a.txt {
+    margin-left: 10px;
+  }
+  .hero > div a.btn {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 6px 30px;
+    border-radius: 25px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .services {
+    position: relative;
+  }
+  .services > .carousel-img {
+    position: absolute;
+    right: 0;
+    top: -200px;
+    width: 40%;
+    height: 450px;
+  }
+  .services > .carousel-img .slick-arrow {
+    position: absolute;
+    bottom: 0;
+    border: none;
+    padding: 16px 2px;
+    font-size: 22px;
+  }
+  .services > .carousel-img .slick-prev {
+    left: -30px;
+  }
+  .services > .txt h3 {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  .services > .txt .carousel-txt {
+    max-width: 500px;
+  }
+  .services > .txt .carousel-txt .item h1 {
+    font-size: 46px;
+  }
+  .services > .txt .carousel-txt .item p {
+    font-size: 18px;
+  }
+  .services > .txt .carousel-txt .slick-dots {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .services > .txt .carousel-txt .slick-dots li {
+    margin: auto 8px;
+    padding: 4px 14px;
+  }
+  .v-carousel .v-slider {
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+  }
+  .v-carousel .v-slider .item {
+    max-width: 60%;
+  }
+  .v-carousel .v-slider .item .credit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .v-carousel .v-slider .item .credit hr {
+    width: 50px;
+    height: 0px;
+    margin: 0;
+    margin-right: 20px;
+  }
+  .v-carousel .v-slider .item .quote {
+    font-size: 200px;
+  }
+  .v-carousel .v-slider button.slick-arrow {
+    position: absolute;
+    right: 0;
+    border: none;
+    background: transparent;
+    font-size: 26px;
+  }
+  .v-carousel .v-slider ul.slick-dots {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .v-carousel .v-slider ul.slick-dots li {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    opacity: 0.5;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .v-carousel .v-slider ul.slick-dots li.slick-active {
+    font-size: 60px;
+    opacity: 1;
+  }
+  .v-carousel .quote {
+    font-size: 150px;
+    position: absolute;
+    left: 10%;
+    bottom: -100px;
+  }
+  .portfolio {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  .portfolio .navigation ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .portfolio .navigation ul button {
+    background: transparent;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.5;
+    font-size: 14px;
+  }
+  .portfolio .navigation ul button.active {
+    opacity: 1;
+  }
+  .portfolio .grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .portfolio .grid > div {
+    width: calc(90% / 2);
+    position: relative;
+    margin: auto;
+  }
+  .portfolio .grid > div:nth-child(even) {
+    margin-top: 50px;
+  }
+  .portfolio .grid > div img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .portfolio .grid > div:hover .grid-hover {
+    visibility: visible;
+  }
+  .portfolio .grid div.grid-hover {
+    text-align: left;
+    padding: 12px;
+    position: absolute;
+    bottom: 16px;
+    left: 14px;
+    right: 14px;
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .portfolio .grid div.grid-hover span {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .portfolio .grid div.grid-hover p {
+    margin: 0;
+    font-size: 14px;
+  }
+  .services .head {
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+  .services .services-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .services .services-list > div {
+    width: calc(100%/3);
+    text-align: center;
+    padding: 40px 60px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-top: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+  .services .services-list > div .icon {
+    width: 50px;
+    height: auto;
+    margin: auto;
+  }
+  .services .services-list > div h1.title {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .services .services-list > div p.description {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .video .background {
+    margin: 40px 0;
+  }
+  .video .background div.video-container {
+    width: 70%;
+    height: auto;
+    margin: auto;
+  }
+  .video .background div.video-container video {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+    margin: -40px auto;
+  }
+  .testimonials .testimonial-slider p.feedback {
+    font-size: 30px;
+  }
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (max-width: 1024px) {
   .services > .txt {
@@ -18,6 +351,9 @@
   footer > div.top-footer div.ig-feed {
     width: 60%;
   }
+  .services > .carousel-img {
+    height: 300px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -27,6 +363,9 @@
   }
   .hero > div {
     height: 400px;
+  }
+  .hero header .menu {
+    width: 50px;
   }
   .services > .carousel-img {
     top: -150px;
@@ -52,6 +391,9 @@
   }
   .testimonials .head {
     max-width: 80%;
+  }
+  .testimonials .testimonial-slider p.feedback {
+    font-size: 26px;
   }
   footer .title {
     text-align: center;
@@ -99,7 +441,13 @@
     font-size: 40px;
   }
   .hero > div {
-    height: 200px;
+    height: 500px;
+  }
+  .portfolio .navigation ul li {
+    margin: auto;
+  }
+  .testimonials .testimonial-slider p.feedback {
+    font-size: 20px;
   }
   .services > .txt .carousel-txt .item h1 {
     font-size: 30px;
