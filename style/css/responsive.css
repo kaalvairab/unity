@@ -327,7 +327,13 @@
     margin: -40px auto;
   }
   .testimonials .testimonial-slider p.feedback {
-    font-size: 30px;
+    font-size: 26px;
+  }
+  footer div.top-footer {
+    width: 80%;
+  }
+  footer div.bottom-footer {
+    width: 80%;
   }
 }
 
