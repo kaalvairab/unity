@@ -31,7 +31,9 @@ $txtOrange:$orange;
     
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: $bgWhite;
     margin: 0;

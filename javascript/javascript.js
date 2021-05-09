@@ -8,6 +8,7 @@ $(document).ready(function(){
         
         prevArrow: '<button type="button" class="slick-prev"><i class="fi-xtllxl-arrow-simple-thin"></i></button>',
         nextArrow:'<button type="button" class="slick-next"><i class="fi-xtlrxl-arrow-simple-thin"></i></button>',
+        asNavFor:'.services .carousel-txt'
      
     });
 
@@ -16,6 +17,7 @@ $(document).ready(function(){
     $('.services .carousel-txt').slick({
         arrows:false,
         dots: true,
+        asNavFor:'.services .carousel-img',
           customPaging : function(slider, i) {
     var thumb = $(slider.$slides[i++]).data();
     return '<a class="dot">'+i+'</a>';

@@ -3,6 +3,10 @@
   src: url("../../fonts/gotham/Gotham-Black.otf");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #ffffff;
   margin: 0;
